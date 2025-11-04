@@ -15,9 +15,41 @@ yarn add @jswork/case-kit
 ```js
 import CaseKit from '@jswork/case-kit';
 
-CaseKit(1024);
+// Convert to camelCase
+CaseKit.camelCase('change_format_to_this'); 
+// Output: 'changeFormatToThis'
 
-// [1000, 0, 20, 4]
+// Convert to snake_case
+CaseKit.snakeCase('changeFormatToThis'); 
+// Output: 'change_format_to_this'
+
+// Convert to kebab-case
+CaseKit.kebabCase('ChangeFormatToThis'); 
+// Output: 'change-format-to-this'
+
+// Convert to PascalCase
+CaseKit.pascalCase('change_format_to_this'); 
+// Output: 'ChangeFormatToThis'
+
+// Convert to CONSTANT_CASE
+CaseKit.constantCase('changeFormatToThis'); 
+// Output: 'CHANGE_FORMAT_TO_THIS'
+
+// Convert to dot.case
+CaseKit.dotCase('changeFormatToThis'); 
+// Output: 'change.format.to.this'
+
+// Convert to path/case
+CaseKit.pathCase('changeFormatToThis'); 
+// Output: 'change/format/to/this'
+
+// Convert to sentence case
+CaseKit.sentenceCase('CHANGE_FORMAT_TO_THIS'); 
+// Output: 'Change format to this'
+
+// Convert to Title Case
+CaseKit.titleCase('change_format_to_this'); 
+// Output: 'Change Format To This'
 ```
 
 ## license
