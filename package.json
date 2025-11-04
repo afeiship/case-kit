@@ -1,6 +1,6 @@
 {
   "name": "@jswork/case-kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert strings between camel, snake, kebab, pascal, and other cases.",
   "npmClient": "pnpm",
   "main": "dist/index.cjs.js",
@@ -35,8 +35,10 @@
   },
   "homepage": "https://js.work",
   "keywords": [
-    "case-kit",
-    "number",
-    "num"
+    "camel",
+    "case",
+    "kebab",
+    "pascal",
+    "snake"
   ]
 }
